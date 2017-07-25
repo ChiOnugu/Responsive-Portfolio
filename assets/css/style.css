@@ -75,6 +75,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+  
 }
 
 nav {
@@ -237,3 +238,84 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+ 
+
+  @media screen and (max-width: 980px) {
+    
+   #logo {
+    max-width: 768px;
+    height: 70px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+  
+    }
+    .container {
+    max-width:768%;
+    padding:0;
+    }
+    .sidebar {
+    float: left;
+    width: 100%;
+    max-width: 768px;
+    padding: 15px;
+    margin-bottom: 10px;
+    }
+    footer {
+    padding: 0;
+    }
+    nav{ max-width: 768px;float: left; }
+   
+   #masthead{
+
+    width: 768px;}
+
+}
+@media screen and (max-width: 640px) {
+    
+   #logo {
+   width: 100%; float: left;
+   height: 70px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    text-decoration: none;
+    
+    
+   
+    }
+    .container {
+    max-width:640;
+    padding: 0;
+    width: 100%;
+
+    }
+
+    .sidebar {
+    float: left;
+    width: 100%;
+    max-width: 640px;
+    padding: 15px;
+    margin-bottom: 10px;
+    }
+    footer {
+    padding: 0;
+    }
+    nav{ max-width:640px;float: left; }
+   
+   #masthead{
+
+    max-width: 640px;text-align: center;}
+       
+}
+
+
+ 
+ 
+
