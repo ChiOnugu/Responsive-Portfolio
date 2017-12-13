@@ -1,3 +1,3 @@
 # Basic-Portfolio
 
-https://chionugu.github.io/Responsive-Portfolio/
+http://chionugu.io/Responsive-Portfolio/
